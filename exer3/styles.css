@@ -45,6 +45,7 @@ nav li {
 h1 {
     font-size: 50px;
     text-align: center;
+    margin-top: 50px;
 }
 
 .main {
@@ -57,7 +58,7 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 70vh;
+    height: 80px;
 }
 
 .google-logo img {
