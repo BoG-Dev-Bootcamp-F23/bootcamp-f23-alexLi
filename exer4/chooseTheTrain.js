@@ -42,6 +42,8 @@ function getKeysToArr(arrivals) {
     keys.push(key);
   }
   return keys;
+  // TODO
+  console.log(arrivals);
 }
 
 /**
