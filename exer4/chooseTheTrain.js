@@ -43,7 +43,6 @@ function getKeysToArr(arrivals) {
   }
   return keys;
   // TODO
-  console.log(arrivals);
 }
 
 /**
