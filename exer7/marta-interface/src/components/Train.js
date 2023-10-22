@@ -10,7 +10,7 @@ function Train(props) {
     let status = "";
     let statusColor = "";
 
-    if(props.DELAY === "T0S") {
+    if(train.DELAY === "T0S") {
         status = "On Time";
         statusColor = "green";
     } else {
