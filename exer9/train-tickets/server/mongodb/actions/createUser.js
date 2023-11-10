@@ -1,5 +1,5 @@
-import connectDB from '../index.js';
-import User from '../models/User.js';
+import connectDB from '../index';
+import User from '../models/User';
 
 async function createUser(data) {
   try {

@@ -1,4 +1,4 @@
-import '../../../server/mongodb/actions/updateTicketByUser'
+import updateTicketByUser from '../../../server/mongodb/actions/updateTicketByUser'
 
 export default async function handler(req, res) {
     if (req.method === 'PATCH') {

@@ -1,4 +1,4 @@
-import '../../../server/mongodb/actions/createTicket'
+import createTicket from '../../../server/mongodb/actions/createTicket'
 
 export default async function handler(req, res) {
     if (req.method === 'POST') {
