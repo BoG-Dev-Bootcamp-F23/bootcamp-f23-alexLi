@@ -7,7 +7,7 @@ export default async function handler(req, res) {
             if (!tickets) {
                 res.status(400).send("User Not Found");
             } else {
-                res.status(200).send(tickets);
+                res.status(200).json({'userTickets': tickets});
             }
         } catch (e) {
             res.status(500).send('Failed');

@@ -6,7 +6,7 @@ async function updateTicketByUser(data) {
     await connectDB()
     try {
         const { userID, ticketID } = data;
-        await Ticket.findByIdAndUpdate(ticketID, { 'userID': userID});
+        await Ticket.findByIdAndUpdate(ticketID, { 'userId': userID});
         return true;
     } catch (error) {
         console.log(error);

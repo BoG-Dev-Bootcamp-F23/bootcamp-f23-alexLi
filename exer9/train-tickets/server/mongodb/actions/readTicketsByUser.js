@@ -10,8 +10,7 @@ async function readTicketsByUser(data) {
         if (!exists) {
             return false; // Ticket not found
         } else {
-            const result = await Ticket.findByIdAndDelete(ticketID);
-            return await Ticket.find({ "userID": userID});
+            return await Ticket.find({ "userId": userID});
         }
     } catch (error) {
         console.log(error);
