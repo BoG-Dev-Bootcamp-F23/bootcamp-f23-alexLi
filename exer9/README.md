@@ -1,4 +1,5 @@
 # Exercise 9 - Train Tickets DB
+Demo video: https://drive.google.com/file/d/1ecIrTPk6lTL5SLnUd3hENKZ5NP5iclpy/view?usp=sharing
 
 ## Description
 In this exercise, bootcampers will familiarize themselves with MongoDB schemas/models, CRUD operations, and making request through API endpoints in Next.
